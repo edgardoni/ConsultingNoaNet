@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/ConsultingNoaNet/!svn/ver/12/trunk/DBRelease
+END
+3 AlterTableExportData0062.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ConsultingNoaNet/!svn/ver/11/trunk/DBRelease/3%20AlterTableExportData0062.sql
+END
+1 AG_DigitalSignAlterIdCertificado.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ConsultingNoaNet/!svn/ver/9/trunk/DBRelease/1%20AG_DigitalSignAlterIdCertificado.sql
+END
+2 sp_InsertDataOnExportData.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ConsultingNoaNet/!svn/ver/12/trunk/DBRelease/2%20sp_InsertDataOnExportData.sql
+END

@@ -1,0 +1,207 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="principal.master.cs" Inherits="principal1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Consulting</title>
+    <style type="text/css">
+        #form1
+        {
+            text-align: right;
+        }
+    </style>
+
+
+</head>
+<body bgColor="#8694a4" >
+    <form id="form1" runat="server">
+    <div style="text-align: right">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+    </div>
+    <p style="text-align: right">
+        &nbsp;</p>
+        <table cellspacing="0" style="width: 921px; background-color: #ffffff" 
+        align="center">
+            <tr>
+                <td class="style7" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style10" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style11" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style2" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style3" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style4" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style5" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style6" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style7" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style8" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style7" style="height: 34px; background-color: #003366">
+                </td>
+                <td class="style7" style="height: 34px; background-color: #003366; width: 489px;">
+                </td>
+                <td class="style7" style="height: 34px; background-color: #003366; text-align: right">
+                    <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/imagenes/nuevasImagenes/flecha-menu.png" /></td>
+                <td class="style7" style="width: 84px; height: 34px; background-color: #003366; text-align: left">
+                    <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="False" Font-Names="Tahoma"
+                        Font-Size="Small" Font-Underline="False" ForeColor="White" Width="74px">Manual PDF</asp:LinkButton></td>
+                <td class="style7" style="height: 34px; background-color: #003366; text-align: right">
+                    <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/imagenes/nuevasImagenes/flecha-menu.png" /></td>
+                <td class="style7" style="height: 34px; background-color: #003366">
+                    <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="False" Font-Names="Tahoma"
+                        Font-Size="Small" Font-Underline="False" ForeColor="White" Width="98px">Soporte Tecnico</asp:LinkButton></td>
+                <td class="style7" style="height: 34px; background-color: #003366; text-align: right">
+                    <asp:ImageButton ID="ImageButton3" runat="server" 
+                        ImageUrl="~/imagenes/nuevasImagenes/flecha-menu.png" 
+                        onclick="ImageButton3_Click" /></td>
+                <td class="style7" style="height: 34px; background-color: #003366; text-align: left">
+                    <asp:LinkButton ID="LinkButton3" runat="server" Font-Bold="False" Font-Names="Tahoma"
+                        Font-Size="Small" Font-Underline="False" ForeColor="White" Width="60px" 
+                        onclick="LinkButton3_Click">Indexing</asp:LinkButton></td>
+                <td class="style7" style="height: 34px; background-color: #003366">
+                </td>
+            </tr>
+            <tr>
+                <td class="style7" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style10" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style11" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style2" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style3" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style4" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style5" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style6" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style7" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style8" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style7" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style7" style="height: 3px; background-color: darkgray; width: 489px;">
+                </td>
+                <td class="style7" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style7" style="width: 84px; height: 3px; background-color: darkgray">
+                </td>
+                <td class="style7" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style7" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style7" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style7" style="height: 3px; background-color: darkgray">
+                </td>
+                <td class="style7" style="height: 3px; background-color: darkgray">
+                </td>
+            </tr>
+            <tr>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style10" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style11" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style2" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style3" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style4" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style5" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style6" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style8" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro; width: 489px;">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="width: 84px; height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+            </tr>
+            <tr>
+                <td class="style7" colspan="19" style="height: 1px; background-color: gainsboro;
+                    text-align: center">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style10" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style11" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style2" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style3" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style4" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style5" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style6" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style8" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro; width: 489px;">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="width: 84px; height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                </td>
+                <td class="style7" style="height: 1px; background-color: gainsboro">
+                    &nbsp;</td>
+            </tr>
+        </table>
+        <p>
+            &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Aplika Consulting</title>
+<link rel="stylesheet" type="text/css" href="loguin.css" />
+</head>
+
+<body>
+<div id="wrap">
+   <div id="menu-top">
+    <img src="../imagenes/logo-consulting-loguin.png" class="logo" />
+	 <ul class="lista-top">
+	   <li><img src="../imagenes/flecha-menu.png" /> <a href="">MANUAL PDF</a></li>
+	   <li><img src="../imagenes/flecha-menu.png" /> <a href="">SOPORTE TECNICO</a></li>
+	   <li><img src="../imagenes/flecha-menu.png" /> <a href="">CONTACTO</a></li>
+	 </ul>
+   </div>
+     <div id="banner">
+	  <img src="../imagenes/foto-loguin.jpg" class="foto-loguin" />
+	  <h1>BIENVENIDO A APLIKA CONSULTING</h1>
+	  <p>La aplicación Aplika-Consulting Web permite el acceso y<br /> 
+la búsqueda de documentos digitalizados desde los <br />
+distintos  sectores autorizados de la organización vía <br />
+Intranet o Internet, brindando las posibilidades de <br />
+exportar, imprimir, o enviar por e-mail los documentos <br />
+encontrados.</p>
+     </div>
+	   <div id="loguin">
+	      <form class="formulario">
+		     <label for="usuario">Usuario</label>
+			 <input type="text" name="usuario" class="usuario" />
+			 <label for="contrasenia">Contrase&ntilde;a</label>
+			 <input type="text" name="contrasenia" class="contrasenia" />
+			 
+			 <input type="submit" value="Entrar" class="boton-logueo" />
+		  </form>
+	   </div>
+	<div id="menu-pie">
+	   <div class="caja">
+	      <h2><img src="../imagenes/icono-herramienta.png" /> Actualizaciones del Sistema</h2>
+		    <ul class="update">
+			    <li><a href="">Nueva Opcion exportar en JPG</a></li>
+				<li><a href="">Nueva Opcion exportar en JPG</a></li>
+				<li><a href="">Nueva Opcion exportar en JPG</a></li>
+				<li><a href="">Nueva Opcion exportar en JPG</a></li>
+				<li><a href="">Nueva Opcion exportar en JPG</a></li>
+				<li><a href="">Nueva Opcion exportar en JPG</a></li>
+		    </ul>
+	   </div>
+	   <div class="caja">
+	      <h2><img src="../imagenes/icono-estrella.png" />Tip del dia</h2>
+		  <p class="tip">Tip de ayuda del dia Tip de ayuda del dia Tip de a
+yuda del dia Tip de ayuda del dia Tip de ayuda 
+del dia Tip de ayuda del dia Tip de ayuda del dia
+Tip de ayuda del dia Tip de ayuda del</p>
+	   </div>
+	   <div class="caja">
+	      <h2><img src="../imagenes/info.png" />Soporte tecnico</h2>
+		  <p class="tip">Comuniquese con nosotros via Skipe. Lun. a Vie. de 9 a 18hs.<br />
+		  <a href="#" class="skipe"><img src="../imagenes/skype.png" /></a></p>
+	   </div>
+	</div>
+   <div id="footer">
+   <a href="http://www.aplikagroup.com" class="web" target="_blank"><img src="../imagenes/logo-aplika.png" /></a>
+   </div>	   
+	   
+</div>
+</body>
+</html>

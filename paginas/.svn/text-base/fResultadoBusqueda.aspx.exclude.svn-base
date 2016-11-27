@@ -1,0 +1,112 @@
+﻿<%@ Page EnableEventValidation="false" Theme ="pagina" Language="C#" MasterPageFile="~/principal.master" AutoEventWireup="true" CodeFile="fResultadoBusqueda.aspx.cs" Inherits="paginas_fResultadoBusqueda" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:UpdatePanel id="UpdatePanel1" runat="server">
+        <contenttemplate>
+            <br />
+            <table frame="border" style="width: 762px; background-color: ghostwhite">
+                <tr>
+                    <td style="width: 100px">
+<TABLE><TBODY><TR>
+    <td style="width: 633px">
+    </td>
+    <TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD></TR><TR>
+    <td colspan="1" style="width: 633px; border-collapse: collapse; background-color: whitesmoke">
+    </td>
+    <td colspan="3" style="background-color: whitesmoke; border-collapse: collapse;">
+        <asp:Label id="Label1" runat="server" Text="RESULTADOS DE BUSQUEDA" Font-Size="Medium" Font-Names="Tahoma" ForeColor="SteelBlue" Font-Bold="True" Width="261px"></asp:Label></td>
+    <TD style="BACKGROUND-COLOR: whitesmoke; border-collapse: collapse;"></TD><TD style="BACKGROUND-COLOR: whitesmoke; border-collapse: collapse;"></TD><TD style="BACKGROUND-COLOR: whitesmoke; border-collapse: collapse;"></TD><TD style="BACKGROUND-COLOR: whitesmoke; border-collapse: collapse;"></TD></TR><TR>
+        <td style="width: 633px">
+        </td>
+        <TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD></TR><TR>
+        <td colspan="1" style="width: 633px; height: 1px; text-align: left">
+            &nbsp; &nbsp;&nbsp;
+        </td>
+        <TD colSpan=3 style="height: 1px; text-align: left"><TABLE style="WIDTH: 295px"><TBODY><TR><TD style="WIDTH: 32px; text-align: center;"><asp:ImageButton id="ImageButton7" runat="server" ImageUrl="~/imagenes/nuevasImagenes/icono-campos-a-mostrar.png"></asp:ImageButton></TD><TD style="WIDTH: 100px"><asp:Label id="Label3" runat="server" Width="187px" Text="Cantidad de registros a mostrar" Font-Size="Small" Font-Names="Tahoma"></asp:Label></TD><TD style="WIDTH: 100px; text-align: center;"><asp:TextBox id="TextBox3" runat="server" Width="37px" Font-Size="X-Small" Font-Names="Tahoma" ReadOnly="True"></asp:TextBox></TD></TR></TBODY></TABLE></TD><TD style="WIDTH: 100px; height: 1px;"></TD><TD style="WIDTH: 100px; height: 1px;"></TD><TD colSpan=2 rowSpan=2><asp:Image id="Image1" runat="server" ImageUrl="~/imagenes/nuevasImagenes/logo-top.png"></asp:Image></TD></TR><TR>
+        <td colspan="1" style="width: 633px; height: 1px; text-align: left">
+        </td>
+        <TD style="HEIGHT: 1px; text-align: left;" colSpan=3>&nbsp;<TABLE style="WIDTH: 295px"><TBODY><TR><TD style="WIDTH: 65px"><asp:ImageButton id="ImageButton6" runat="server" ImageUrl="~/imagenes/nuevasImagenes/icono-primero.png" OnClick="ImageButton6_Click"></asp:ImageButton></TD><TD style="WIDTH: 50px"><asp:ImageButton id="ImageButton5" runat="server" ImageUrl="~/imagenes/nuevasImagenes/icono-anterior.png" OnClick="ImageButton5_Click"></asp:ImageButton></TD><TD style="WIDTH: 71px; text-align: center;"><asp:TextBox id="TextBox1" runat="server" Width="37px" Font-Size="X-Small" Font-Names="Tahoma" ReadOnly="True"></asp:TextBox></TD><TD style="WIDTH: 31px; text-align: center;"><asp:Label id="Label2" runat="server" Text="de" Font-Size="Small" Font-Names="Tahoma"></asp:Label></TD><TD style="WIDTH: 63px; text-align: center;"><asp:TextBox id="TextBox2" runat="server" Width="37px" Font-Size="X-Small" Font-Names="Tahoma" ReadOnly="True"></asp:TextBox></TD><TD style="WIDTH: 38px"><asp:ImageButton id="ImageButton3" runat="server" ImageUrl="~/imagenes/nuevasImagenes/icono-siguiente.png" OnClick="ImageButton3_Click"></asp:ImageButton></TD><TD style="WIDTH: 100px"><asp:ImageButton id="ImageButton4" runat="server" ImageUrl="~/imagenes/nuevasImagenes/icono-ultimo.png" OnClick="ImageButton4_Click"></asp:ImageButton></TD></TR></TBODY></TABLE></TD><TD style="WIDTH: 100px; HEIGHT: 1px"></TD><TD style="WIDTH: 100px; HEIGHT: 1px"></TD></TR><TR>
+        <td style="width: 633px; height: 21px">
+        </td>
+        <TD style="WIDTH: 100px; HEIGHT: 21px"></TD><TD style="WIDTH: 100px; HEIGHT: 21px"></TD><TD style="WIDTH: 100px; HEIGHT: 21px"></TD><TD style="WIDTH: 100px; HEIGHT: 21px"></TD><TD style="WIDTH: 100px; HEIGHT: 21px"></TD><TD style="WIDTH: 100px; HEIGHT: 21px"></TD><TD style="WIDTH: 100px; HEIGHT: 21px"></TD></TR><TR>
+        <td colspan="1" style="width: 633px">
+        </td>
+        <TD colSpan=7><asp:Panel id="Panel1" runat="server" Width="730px" Height="150px"><asp:GridView id="GridView1" runat="server" SkinID="LetraMuyChica" AutoGenerateColumns="False" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" DataKeyNames="IDExport,FileName"><Columns>
+<asp:TemplateField ShowHeader="False"><ItemTemplate>
+                                    <asp:ImageButton ID="ImageButton1" runat="server" CommandName="Select" ImageUrl="~/imagenes/pdf.jpg" />
+                                
+</ItemTemplate>
+</asp:TemplateField>
+</Columns>
+</asp:GridView> </asp:Panel> </TD></TR></TBODY></TABLE>
+                    </td>
+                </tr>
+            </table>
+            <table frame="border" style="width: 762px; background-color: ghostwhite;">
+                <tr>
+                    <td style="width: 100px">
+                        <table style="width: 748px">
+                            <tr>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 100px; text-align: left">
+                                    <asp:ImageButton id="ImageButton2" onclick="ImageButton2_Click" runat="server" ImageUrl="~/imagenes/pdf.jpg"></asp:ImageButton></td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="7">
+                                    <IFRAME style="HEIGHT: 285px" align=center src="fPdf.aspx" width="100%" height=160>
+        </IFRAME>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                </td>
+                                <td style="width: 100px">
+                                    <asp:Button id="Button1" runat="server" Width="62px" Text="Exportar" Font-Size="X-Small" Font-Names="Tahoma" BackColor="#003366" ForeColor="White"></asp:Button></td>
+                                <td style="width: 100px">
+                                    <asp:Button id="Button2" runat="server" Width="62px" Text="Volver" Font-Size="X-Small" Font-Names="Tahoma" BackColor="#003366" ForeColor="White"></asp:Button></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <br />
+</contenttemplate>
+
+
+    </asp:UpdatePanel>
+</asp:Content>
+

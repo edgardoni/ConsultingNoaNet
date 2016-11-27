@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/ConsultingNoaNet/!svn/ver/2/trunk/lib
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ConsultingNoaNet/!svn/ver/2/trunk/lib/commons-httpclient-3.1.jar
+END
+jai_core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/ConsultingNoaNet/!svn/ver/2/trunk/lib/jai_core.jar
+END
+bcprov-jdk16-143.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ConsultingNoaNet/!svn/ver/2/trunk/lib/bcprov-jdk16-143.jar
+END
+iText-2.1.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/ConsultingNoaNet/!svn/ver/2/trunk/lib/iText-2.1.7.jar
+END
+icepdf-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/ConsultingNoaNet/!svn/ver/2/trunk/lib/icepdf-core.jar
+END

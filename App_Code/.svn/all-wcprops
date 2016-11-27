@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/ConsultingNoaNet/!svn/ver/14/trunk/App_Code
+END
+conexion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/ConsultingNoaNet/!svn/ver/2/trunk/App_Code/conexion.cs
+END
+negocio.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/ConsultingNoaNet/!svn/ver/14/trunk/App_Code/negocio.cs
+END
+dsConsulting.xss
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ConsultingNoaNet/!svn/ver/7/trunk/App_Code/dsConsulting.xss
+END
+ConsultingSql.xss.exclude
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ConsultingNoaNet/!svn/ver/2/trunk/App_Code/ConsultingSql.xss.exclude
+END
+dsConsulting.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ConsultingNoaNet/!svn/ver/7/trunk/App_Code/dsConsulting.xsd
+END
+ConsultingSql.xsd.exclude
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ConsultingNoaNet/!svn/ver/2/trunk/App_Code/ConsultingSql.xsd.exclude
+END

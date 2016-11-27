@@ -1,0 +1,27 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="fBusqueda1.aspx.cs" Inherits="paginas_fBusqueda1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Página sin título</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1"
+            DataTextField="FieldName" DataValueField="IDFieldType" Width="213px">
+        </asp:DropDownList>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DB_IndexColegioConnectionString %>"
+            SelectCommand="   SELECT [IDField]&#13;&#10;      ,[IDDocumentType]&#13;&#10;      ,[IDFieldType]&#13;&#10;      ,[FieldName]&#13;&#10;  FROM [DB_IndexColegio].[dbo].[AG_Fields]&#13;&#10;where IDDocumentType = @IDDocumentType">
+            <SelectParameters>
+                <asp:Parameter DefaultValue="1" Name="IDDocumentType" />
+            </SelectParameters>
+        </asp:SqlDataSource>
+        <asp:DropDownList ID="DropDownList2" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1"
+            DataTextField="FieldName" DataValueField="IDFieldType" Font-Names="Tahoma" Font-Size="X-Small"
+            Width="200px">
+        </asp:DropDownList></div>
+    </form>
+</body>
+</html>

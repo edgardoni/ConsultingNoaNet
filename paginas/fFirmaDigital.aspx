@@ -102,14 +102,6 @@
     </script>
 
 
-        <applet code="Aplika_Indexing" archive="../FirmaApplet.jar" width="800" height="550" >
-        <param name="pathPDF" value="E:\\T.pdf" id="pathPDF" />
-        <param name="pathImagenFirma" value="" id="param2" />
-        <param name="motivo" value="" id="param3" />
-        <param name="ubicacion" value="" id="param4" />
-        <param name="certificado" value="" id="param5" />
-        <param name="contacto" value="" id="param6" />
-    </applet>
     <table style="width: 100%">
         <tr>
             <td>

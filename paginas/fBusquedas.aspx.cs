@@ -434,22 +434,22 @@ public partial class paginas_fBusquedas : System.Web.UI.Page
                         Session["motivo"] = drDigitalSign.DicReason;
                         Session["ubicacion"] = drDigitalSign.DicLocation;
                         Session["contacto"] = drDigitalSign.DicContact;
-                        Session["fullPathFileInServer"] = Session["FileNAme"].ToString(); //La ruta del archivo en el file system del servidor
-                        Session["pathImagenFirma"] = "";
+                        Session["fullPathFileInServer"] = Server.MapPath(Session["FileNAme"].ToString()); //La ruta del archivo en el file system del servidor
+                        Session["pathImagenFirma"] = Server.MapPath("~/docsTmp/FirmaOmar.png");
 
                         if (File.Exists(drDigitalSign.ImageSign.ToString()))
                         {
                             FileInfo fiImagen = new FileInfo(drDigitalSign.ImageSign.ToString());
-                            Session["pathImagenFirma"] = copyFileToTmpFolder(drDigitalSign.ImageSign, "/docsTmp/" + fiImagen.Name); //
+                            Session["pathImagenFirma"] = Server.MapPath("~/docsTmp/FirmaOmar.png");
                         }
 
-                        if (File.Exists(Session["FileNAme"].ToString()))
+                        if (File.Exists(Server.MapPath(Session["FileNAme"].ToString())))
                         {
 
                             if (Veri == true)
                             {
-                                FileInfo fiPDF = new FileInfo(Session["FileNAme"].ToString());
-                                Session["pathPDF"] = copyFileToTmpFolder(Session["FileNAme"].ToString(), "/docsTmp/" + fiPDF.Name);  //La ruta del archivo en el sitio web
+                                FileInfo fiPDF = new FileInfo(Server.MapPath(Session["FileNAme"].ToString()));
+                                Session["pathPDF"] = copyFileToTmpFolder(Server.MapPath(Session["FileNAme"].ToString()), "/docsTmp/" + fiPDF.Name);  //La ruta del archivo en el sitio web
                                 Response.Redirect("fFirmaDigital.aspx");
 
                             }

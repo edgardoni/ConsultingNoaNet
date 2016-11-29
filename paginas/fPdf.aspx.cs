@@ -18,7 +18,7 @@ public partial class fPdf : System.Web.UI.Page
         Response.ClearHeaders();
         Response.ContentType = "application/pdf";
         if (Session["FileNAme"]!=null)
-              Response.TransmitFile(Session["FileNAme"].ToString());
+              Response.TransmitFile(Server.MapPath(Session["FileNAme"].ToString()));
         Response.End();
     }
 }
